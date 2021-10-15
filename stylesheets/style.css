@@ -38,10 +38,12 @@ hr.thin {
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    width:1000px
+    width:1000px;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
-h1.header {
+.header {
   font-weight:normal;
   text-align:center;
 }
