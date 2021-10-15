@@ -49,8 +49,8 @@ hr.thin {
 }
 
 #profile-pic{
-	width: 225px;
-	height: 225px;
+	width: 250px;
+	height: 250px;
 	background-image: url('../img/profile.png');
 	background-size: cover;
 	display: block;
