@@ -78,6 +78,19 @@ h1.header {
 
 .paper-title {
   font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.paper-line {
+  margin-top: 2px;
+}
+
+.paper-desc {
+  margin-top: 20px;
+}
+
+tr.spaceUnder>td {
+  padding-bottom: 25px;
 }
 
 a.imageLink{
@@ -98,7 +111,7 @@ a:hover {
 
 .row {
   /* display: flex; */
-  width:800px;
+  width:850px;
   margin: auto;
 }
 
