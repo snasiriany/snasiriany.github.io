@@ -1,5 +1,7 @@
 html, body {
     height: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /* html {
@@ -13,14 +15,8 @@ body {
 }
 
 body{
-	background-size:cover;
-	/* background-image: url(../img/wave.jpg);  */
-	background-position: right center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 	/* font-family: 'Lato', Verdana, Helvetica, sans-serif; */
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-	/* text-align:center; */
 
 }
 
@@ -42,6 +38,7 @@ hr.thin {
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width:1000px
 }
 
 h1.header {
@@ -68,14 +65,15 @@ h1.header {
 }
 
 #footer {
-	margin-top:20px;
+	margin-top:50px;
 	margin-bottom:20px;
-	bottom:2px;
+	/* bottom:2px;
 	color:#000000;
 	text-shadow: 2px 2px #ffffff;
 	font-weight: bold;
-	font-family: monaco, Consolas, "Lucida Console", monospace;
+	font-family: monaco, Consolas, "Lucida Console", monospace; */
   text-align: center;
+  height:50px;
 }
 
 .paper-title {
