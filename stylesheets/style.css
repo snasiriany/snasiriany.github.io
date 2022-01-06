@@ -67,15 +67,15 @@ hr.thin {
 }
 
 #footer {
-	margin-top:30px;
-	margin-bottom:20px;
+	margin-top:20px;
+	margin-bottom:30px;
 	/* bottom:2px;
 	color:#000000;
 	text-shadow: 2px 2px #ffffff;
 	font-weight: bold;
 	font-family: monaco, Consolas, "Lucida Console", monospace; */
   text-align: center;
-  height:50px;
+  height:80px;
 }
 
 .paper-title {
