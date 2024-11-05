@@ -6,8 +6,8 @@
 
   <link href="https://fonts.googleapis.com/" rel="preconnect">
   <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin="anonymous">
-  <script src="./webfont.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="./css" media="all"><script type="text/javascript">
+  <script src="./assets/rt_affordance/webfont.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="./assets/rt_affordance/css" media="all"><script type="text/javascript">
     WebFont.load({
       google: {
         families: [
@@ -17,13 +17,13 @@
     });
   </script>
 
-  <script type="module" src="./md-block.js"></script>
+  <script type="module" src="./assets/rt_affordance/md-block.js"></script>
 
 
 
   <!-- Syntax highlighting -->
-  <link rel="stylesheet" href="./rainbow.min.css">
-  <script src="./highlight.min.js"></script>
+  <link rel="stylesheet" href="./assets/rt_affordance/rainbow.min.css">
+  <script src="./assets/rt_affordance/highlight.min.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", (event) => {
       document.querySelectorAll("pre code").forEach((block) => {
@@ -32,10 +32,10 @@
     });
   </script>
 
-  <script src="./jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+  <script src="./assets/rt_affordance/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
 
   <!-- Bokeh -->
-  <script type="text/javascript" src="./bokeh-2.4.3.min.js"></script>
+  <script type="text/javascript" src="./assets/rt_affordance/bokeh-2.4.3.min.js"></script>
   <script type="text/javascript">
     Bokeh.set_log_level("info");
   </script>
@@ -79,11 +79,11 @@
 
   <!-- Latex. -->
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async="" src="./tex-mml-chtml.js"></script>
+  <script id="MathJax-script" async="" src="./assets/rt_affordance/tex-mml-chtml.js"></script>
 
-  <link href="./normalize.min.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="./tabler-icons.min.css">
-  <link href="./style.css" rel="stylesheet" type="text/css">
+  <link href="./assets/rt_affordance/normalize.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./assets/rt_affordance/tabler-icons.min.css">
+  <link href="./assets/rt_affordance/style.css" rel="stylesheet" type="text/css">
 <style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
 .CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
 .CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
@@ -563,7 +563,7 @@ mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
   </div>
 
   <h2>
-  <a href="./paper.pdf" target="_blank">Paper</a> (preprint)
+  <a href="./assets/rt_affordance/paper.pdf" target="_blank">Paper</a> (preprint)
   <br>
   <br>
   <br>
@@ -612,7 +612,7 @@ mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
     <h2>Overview</h2>
 
     <div style="display: flex; justify-content: center;">
-      <video controls="" src="overview_video.mp4" style="width: 90%; max-width: 800px;" autoplay="" muted=""></video>
+      <video controls="" src="assets/rt_affordance/overview_video.mp4" style="width: 90%; max-width: 800px;" autoplay="" muted=""></video>
     </div>
     
     <div style="height: 2em"></div>
@@ -627,7 +627,7 @@ mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
     <p style="margin-bottom:0.5cm;">
       Conditioning on language is intuitive, yet language typically does not provide enough guidance on how to perform the task. Goal images and trajectory sketches are typically over-specified and present learning challenges. We propose conditioning policies on intermediate affordance representations, which are expressive yet compact representations of tasks, making them easy to specify and to learn.
     </p>
-    <img src="./method_comparison.png">
+    <img src="./assets/rt_affordance/method_comparison.png">
     <br>
     <br>
     <br>
@@ -636,7 +636,7 @@ mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
     We project the affordance (in text) onto the image, and subsequently condition the policy on images overlaid with the affordance plan.
     We co-train the model on web datasets (largest data source), robot trajectories, and a modest number of cheap-to-collect images labeled with affordances.
     </p>
-    <img src="./method_overview.png">
+    <img src="./assets/rt_affordance/method_overview.png">
   </section>
 
   <section>
@@ -656,11 +656,11 @@ mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
       <div class="carousel-track">
           <div class="carousel-slide">
               <figure class="video-container">
-                  <video src="./video_clips/pick_kettle/rt2.mp4" controls="" autoplay="" muted=""></video>
+                  <video src="./assets/rt_affordance/video_clips/pick_kettle/rt2.mp4" controls="" autoplay="" muted=""></video>
                   <figcaption>RT-Affordance (ours)</figcaption>
               </figure>
               <figure class="video-container">
-                  <video src="./video_clips/pick_kettle/rt_affordance.mp4" controls="" autoplay="" muted=""></video>
+                  <video src="./assets/rt_affordance/video_clips/pick_kettle/rt_affordance.mp4" controls="" autoplay="" muted=""></video>
                   <figcaption>RT2</figcaption>
               </figure>
           </div>
@@ -680,11 +680,11 @@ mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
     <div class="carousel-track">
         <div class="carousel-slide">
             <figure class="video-container">
-                <video src="./video_clips/pick_pot/rt2.mp4" controls="" autoplay="" muted=""></video>
+                <video src="./assets/rt_affordance/video_clips/pick_pot/rt2.mp4" controls="" autoplay="" muted=""></video>
                 <figcaption>RT-Affordance (ours)</figcaption>
             </figure>
             <figure class="video-container">
-                <video src="./video_clips/pick_pot/rt_affordance.mp4" controls="" autoplay="" muted=""></video>
+                <video src="./assets/rt_affordance/video_clips/pick_pot/rt_affordance.mp4" controls="" autoplay="" muted=""></video>
                 <figcaption>RT2</figcaption>
             </figure>
         </div>
@@ -704,11 +704,11 @@ mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
   <div class="carousel-track">
       <div class="carousel-slide">
           <figure class="video-container">
-              <video src="./video_clips/place_eggplant_into_box/rt2.mp4" controls="" autoplay="" muted=""></video>
+              <video src="./assets/rt_affordance/video_clips/place_eggplant_into_box/rt2.mp4" controls="" autoplay="" muted=""></video>
               <figcaption>RT-Affordance (ours)</figcaption>
           </figure>
           <figure class="video-container">
-              <video src="./video_clips/place_eggplant_into_box/rt_affordance.mp4" controls="" autoplay="" muted=""></video>
+              <video src="./assets/rt_affordance/video_clips/place_eggplant_into_box/rt_affordance.mp4" controls="" autoplay="" muted=""></video>
               <figcaption>RT2</figcaption>
           </figure>
       </div>
@@ -728,11 +728,11 @@ mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
   <div class="carousel-track">
       <div class="carousel-slide">
           <figure class="video-container">
-              <video src="./video_clips/close_the_cubby/rt2.mp4" controls="" autoplay="" muted=""></video>
+              <video src="./assets/rt_affordance/video_clips/close_the_cubby/rt2.mp4" controls="" autoplay="" muted=""></video>
               <figcaption>RT-Affordance (ours)</figcaption>
           </figure>
           <figure class="video-container">
-              <video src="./video_clips/close_the_cubby/rt_affordance.mp4" controls="" autoplay="" muted=""></video>
+              <video src="./assets/rt_affordance/video_clips/close_the_cubby/rt_affordance.mp4" controls="" autoplay="" muted=""></video>
               <figcaption>RT2</figcaption>
           </figure>
       </div>
@@ -756,15 +756,15 @@ mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
   <div class="carousel-track">
       <div class="carousel-slide">
           <figure class="video-container-small">
-              <video src="./failures/video1.mp4" controls="" autoplay="" muted=""></video>
+              <video src="./assets/rt_affordance/failures/video1.mp4" controls="" autoplay="" muted=""></video>
               <figcaption>Low-level execution failures</figcaption>
           </figure>
           <figure class="video-container-small">
-              <video src="./failures/video2.mp4" controls="" autoplay="" muted=""></video>
+              <video src="./assets/rt_affordance/failures/video2.mp4" controls="" autoplay="" muted=""></video>
               <figcaption>Not following affordance plan</figcaption>
           </figure>
           <figure class="video-container-small">
-            <video src="./failures/video3.mp4" controls="" autoplay="" muted=""></video>
+            <video src="./assets/rt_affordance/failures/video3.mp4" controls="" autoplay="" muted=""></video>
             <figcaption>Policy freezing during execution</figcaption>
         </figure>
       </div>
@@ -774,7 +774,7 @@ mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
 
 </section>
 
-<script src="./script.js"></script>
+<script src="./assets/rt_affordance/script.js"></script>
 
 <section>
   <h2>Acknowledgments</h2>
